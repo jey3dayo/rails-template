@@ -1,0 +1,17 @@
+### Rails ###
+log
+
+## Environment normalisation:
+.bundle/
+.git/
+.direnv/
+.ruby-version
+.dockerignore
+
+.DS_Store
+Thumbs.db
+tags
+
+vendor/bundle/
+containers/
+node_modules/
