@@ -6,6 +6,7 @@ ENV APP_ROOT /usr/src/app
 RUN apt-get update -qq && \
     apt-get install -y vim nodejs \
                        mariadb-client \
+                       shared-mime-info \
                        --no-install-recommends && \
     rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/* /tmp/* /var/tmp/*
 WORKDIR $APP_ROOT
